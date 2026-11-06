@@ -288,7 +288,7 @@ def process_tasks(driver, creds):
                 print(f"❌ Dòng {i+2} không tìm thấy sheet cá nhân trong File Note cho {intern}")
                 continue
 
-            message = f"Đây là test run @Satakunta SAM; @{intern} - Bạn có task mới:\n{task} -File note:"
+            message = f"Đây là test run ; @{intern} - Bạn có task mới:\n{task} -File note:"
             message1 = f"{file_note}"
             
             chat_opened = False
