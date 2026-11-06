@@ -29,10 +29,10 @@ def resource_path(relative_path):
 local_tz = pytz.timezone("Asia/Ho_Chi_Minh")
 GOOGLE_CLIENT_SECRET = "auto\client_secret.json"
 TOKEN_PICKLE = "token.pickle"
-GIAO_TASK_SHEET_URL = "https://docs.google.com/spreadsheets/d/1hKcDp6luuCaRJXzNBNMNJy3I04New72urFlxE4EU_Kc/edit?usp=sharing"
+GIAO_TASK_SHEET_URL = ""
 
-USERNAME = "test2020051980@hotmail.com"
-PASSWORD = "Required3"
+USERNAME = ""
+PASSWORD = ""
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
 
